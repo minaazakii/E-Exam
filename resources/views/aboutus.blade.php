@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="E-exam site">
+        <link rel="stylesheet" href="{{ URL::asset('assests/css/style.css') }}">
+        <title>About Us</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="/img/logo.gif">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="/home1.html"><img src="{{ URL::asset('img/logo.gif') }}"></a>
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="/home1.html" >Home</a></li>
+                        <li><a href="exam.html">E-exam</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            <div class="kfs">
+                <h1>About Us!</h1>
+            </div>
+        </section>
+        <section class="about">
+                <div class="row">
+                    <div class="ab-col" >
+                        <h1>#1 University</h1>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, soluta iusto? Consequatur eaque exercitationem ea ratione, reiciendis quas sapiente placeat nulla magnam dicta? Illo modi quia expedita accusamus id repellendus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente est temporibus odio adipisci aut? Vel atque corrupti corporis soluta numquam repellendus quia minima voluptatem, sapiente dolore placeat nesciunt, blanditiis consequatur! lor</p>
+                    </div>
+                    <div class="ab-col"  >
+                        <img src="/img/conference1.jpg">
+                    </div>
+                </div>
+         </section>
+         <section class="vision">
+             <br>
+           <div>
+                <h1>Our Vision. </h1>
+                <p>
+                    Excellence in quality education and scientific research, and pioneering in establishing knowledge.
+                </p>
+            </div>
+            <div>
+                <h1>
+                    Our Mission.
+                </h1>
+                <p>Providing an environment that enhances education, learning and creative thinking. Educating well prepared graduates who are willing to satisfy the labor market   , offering community services,  distinguished applied research, which develops the community and contributes to establishing knowledge economy.
+                </p>
+            </div>
+         </section>
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat non adipisci aliquid impedit reiciendis totam voluptatibus atque velit! <br>Tenetur, iure excepturi iste repellendus quisquam ad culpa voluptas neque officia mollitia!</p>
+            <p>&copy;All CopyRight are reserved 2021 KFS University </p>
+        </section>
+    </body>
+</html>
